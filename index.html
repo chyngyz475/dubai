@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="media-queries.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.rtl.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.rtl.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.rtl.min.css.map">
+    <link rel="stylesheet" href="css/bootstrap-grid.rtl.min.css">
+    <title>dubai</title>
+</head>
+<body style="background: rgba(23, 32, 49, 0.94);">
+<header>
+<div class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-dark background-color:rgba(23, 32, 49, 0.94); rounded sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Переключить навигацию">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+                <a href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Проекты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">О компании</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Отзывы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Контакты</a>
+                    </li>
+                </ul>
+                <select id="lang">
+                    <option style="background-color: aliceblue;">Rus</option>
+                    <option value="/en/">English</option>
+                    <option value="/es/">中国</option>
+                    <option value="/de/">عربي</option>
+                </select>
+                <button type="button" id="show" onclick="show ('#window')" class="buttonAppilcation" style="cursor: pointer;">Оставьте заявку</button>
+            </div>
+        </div>
+    </nav>
+</div>
+</header>
+<section>
+    <div class="content">
+        <img  class="imageContent"  src="images/Frame%205%20(1).png" alt="">
+        <div class="container">
+            <div class="content__text">
+                <div class="title">
+                    <h2><span>Ваш</span>  <span style="color: #C39F7B ">надежный</span><br>
+                        <span style="margin-left: 70px; color: #C39F7B ">специалист</span>  <span>в области</span><br>
+                        <span>недвижимости</span>  <span style="color: #C39F7B ">Дубай</span></h2>
+                </div>
+                <p class="textHelp ">Поможем Вам с выбором недвижимости в Дубае
+                    для жизни, прибыльных инвестиций и бизнеса</p>
+                <button class="buttonDetails">Подробнее ></button>
+            </div>
+        </div>
+    </div>
+</section>
+<dialog id="window " style=" position: absolute; width: 570px; height: 521px; background: #1E283C; border-radius: 50px 50px 50px 0px; ">
+    <div id="modal-box " class="modal-box ">
+        <form action="index.html " class="form ">
+            <h2 class="texth2 ">Оставьте <span style="color: #C39F7B ">заявку</span></h2>
+            <p class="text-win ">
+                Заполните форму ниже и наш эксперт<br>
+                по недвижимости свяжется с Вами в ближайшее<br>
+                время
+            </p>
+            <input type="name " name="name " class="name " id="name " placeholder="Ваше имя " ><br>
+            <input type="nambe " name="nambe " id="nambe " class="nambe " placeholder="Номер телефона "><br>
+            <button class="btn-win ">Оставьте заявку</button>
+        </form>
+    </div>
+</dialog>
+<div class="immovables">
+    <div class="container">
+
+    </div>
+</div>
+<section class="immovables py-5 " id="titleQuiz ">
+    <h2 class="titleQuiz">
+        <span>
+        Получите подборку <br>
+        <span style="padding: 0 0 0 52px;">недвижимости</span>
+        </span>
+        <span style="color: #C39F7B ">за 2 минуты</span>
+    </h2>
+    <div class="container " style="background: #1E283C; border-radius: 50px 50px 50px 0px; height:500px ">
+        <h5><span class="text-sp">Какая недвижимость Вас интересует?</span></h5>
+        <h5><span class="vopros" style="color: #C39F7B ">1 вопрос</span></h5>
+        <div class="immovables-1 row row-col-1 row-col-sm-2 g3 ">
+            <div class="col ">
+                <img src="images/4%20(1).png" style="width: 330px; height:202px " alt=" ">
+            </div>
+            <div class="col ">
+                <img src="images/2%20(2).png" style="width: 330px; height:202px ">
+            </div>
+            <div class="col ">
+                <img src="images/3%20(1).png " style="width: 330px; height:202px ">
+            </div>
+        </div>
+            <a style="color: #C39F7B ">
+            Хочу лично обсудить со специалистом
+            </a>
+        <button class="button-dl">далее</button>
+    </div>
+</section>
+<section class="textOwner">
+  <div class="imageOwner">
+      <img src="images/лозунг%20(1).png" alt="">
+      <p class="sloganOwner">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+          Amet urna bibendum tempor gravida eget sapien. Sed lacus,<br>
+          tincidunt a, viverra ac quis. Vulputate urna cursus leo gravida velit.<br>
+          Tempor gravida eget sapien.
+      </p>
+      <button class="fullnameOwner">Алексей Алексеевич Алексеев</button>
+  </div>
+</section>
+<section class="titleBenefits">
+    <div class="py5">
+        <div class="container">
+            <div class="row">
+                <div class="row row-col-1 row-col-sm-2 g3">
+                    <h3 class="titleBenefits1">Преимущества</h3>
+                    <div class="col" id="portfolio">
+                        <img class="image-titleBenefits1" src="images/portfolio.png">
+                        <p class="text-titleBenefits">
+                            12 лет всесторонней<br>
+                            экспертизы на рынке Дубай<br>
+                            и ОАЭ
+                        </p>
+                    </div>
+                    <div class="col" id="handshake" >
+                        <img class="image-titleBenefits1" src="images/handshake.png"  alt="">
+                        <p class="text-titleBenefits">
+                            Комплексный подход,<br>
+                            заинтересованность в каждом<br>
+                            этапе сотрудничества
+                        </p>
+                    </div>
+                    <div class="col" id="office-building">
+                        <img class="image-titleBenefits1" src="images/office-building.png" alt="">
+                        <p class="text-titleBenefits">
+                            Представительские офисы<br>
+                            и стратегических партнеры<br>
+                            по всему миру
+                        </p>
+                    </div>
+                    <div class="col" id="pie-chart">
+                        <img class="image-titleBenefits1" src="images/pie-chart.png" alt="">
+                        <p class="text-titleBenefits">
+                            Оптимальные условия<br>
+                            по инвестированию
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="row-cols-3">
+                <div class="col">
+                    <img src="" alt="">
+                </div>
+                <div class="col">
+                    <ul>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <button>
+
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/bootstrap.esm.js"></script>
+</body>
+</html>

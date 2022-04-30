@@ -1,0 +1,282 @@
+*,*:before,*:after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 9371px;
+    @import "font-family: Druk Text Wide Cyr";
+    @import "font-family: Raleway;";
+    background: rgba(23, 32, 49, 0.94)
+}
+body{
+    background: rgba(23, 32, 49, 0.94)
+}
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+
+}
+/*content*/
+.imageContent{
+    min-width: 100%;
+    height: 1316px;
+    max-width: 100%;
+    position: absolute;
+}
+.content{
+        min-width: 100%;
+        height: 1316px;
+        max-width: 100%;
+        position: absolute;
+    }
+.title{
+    position: absolute;
+    width: 736px;
+    height: 150px;
+    left: 103px;
+    top: 120px;
+@import: ;
+"font-family: Druk Text Wide Cyr";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 140%;
+    text-transform: uppercase;
+    font-family: Druk Text Wide Cyr;
+    color: #FFFFFF;
+}
+.buttonDetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 36px 16px 40px;
+    position: absolute;
+    width: 190px;
+    height: 55px;
+    left: 104px;
+    top: 300px;
+    border: 1.5px solid #C39F7B;
+    border-radius: 50px;
+}
+.textHelp{
+    position: absolute;
+    width: 420px;
+    height: 52px;
+    left: 321px;
+    top: 300px;
+
+    @import "font-family: Raleway";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+
+
+    color: #FFFFFF;
+}
+.buttonAppilcation{
+    background: #C39F7B;
+    border-radius: 50px;
+    width: 171px;
+    height: 47px;
+}
+select{
+    width: 61px;
+    height: 24px;
+    background: #172031;
+    border: none;
+}
+/*titleQuize*/
+
+.immovables{
+    position: absolute;
+    width: 100%;
+    height: 665px;
+    top: 1500px;
+}
+.titleQuiz{
+    position: absolute;
+    width: 734px;
+    height: 84px;
+    left: 22px;
+    top: -58px;
+    @import "font-family: Druk Text Wide Cyr";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.vopros{
+    position: absolute;
+    width: 111px;
+    height: 42px;
+    left: 995px;
+    top: 95px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 160%;
+    /* identical to box height, or 42px */
+
+    text-align: right;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #C39F7B;
+}
+.text-sp{
+    position: absolute;
+    width: 491px;
+    height: 42px;
+    top: 95px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.immovables-1{
+    padding: 97px 0px 39px 0px;
+}
+.button-dl {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 33px;
+    position: absolute;
+    width: 113px;
+    height: 55px;
+    left: 82%;
+    top: 373px;
+    background: #C39F7B;
+    border-radius: 30px;
+}
+/**/
+@media (min-width: 380px) {
+
+    .textOwner {
+        position: absolute;
+        width: 1366px;
+        height: 684px;
+        left: 0px;
+        top: 2150px;
+    }
+}
+.fullnameOwner{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 33px;
+
+    position: absolute;
+    width: 292px;
+    height: 55px;
+    left: 885px;
+    top: 605px;
+
+    background: #C39F7B;
+    box-shadow: 0px 0px 50px rgba(195, 159, 123, 0.5);
+    border-radius: 30px 30px 30px 0px;
+}
+.sloganOwner{
+    position: absolute;
+    width: 593px;
+    height: 120px;
+    left: 99px;
+    top: 586px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 160%;
+    /* or 30px */
+
+
+    color: #FFFFFF;
+}
+/**/
+.titleBenefits{
+    position: absolute;
+    width: 1170px;
+    height: 313px;
+    left: 98px;
+    top: 3104px;
+}
+.text-titleBenefits{
+    font-family: Raleway;
+    position: absolute;
+    width: 272px;
+    height: 78px;
+    left: 0px;
+    top: 134px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 160%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #FFFFFF;
+}
+#portfolio{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 100px;
+    background: #C39F7B;
+    box-shadow: 0px 0px 50px rgba(195, 159, 123, 0.5);
+    border-radius: 20px 20px 20px 0px;
+}
+#pie-chart{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 998px;
+    top: 100px;
+    background: #C39F7B;
+    box-shadow: 0px 0px 50px rgba(195, 159, 123, 0.5);
+    border-radius: 20px 20px 20px 0px;
+}
+#office-building{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 718px;
+    top: 100px;
+    background: #C39F7B;
+    box-shadow: 0px 0px 50px rgba(195, 159, 123, 0.5);
+    border-radius: 20px 20px 20px 0px;
+}
+#handshake{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 415px;
+    top: 100px;
+    background: #C39F7B;
+    box-shadow: 0px 0px 50px rgba(195, 159, 123, 0.5);
+    border-radius: 20px 20px 20px 0px;
+}
+.titleBenefits1{
+    font-family: Druk Text Wide Cyr;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 140%;
+    /* identical to box height, or 42px */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
